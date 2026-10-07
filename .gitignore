@@ -1,0 +1,14 @@
+# Dependencies & System files
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

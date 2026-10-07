@@ -1,0 +1,43 @@
+/* Print stylesheet for M R Public Mission */
+@media print {
+  body {
+    background: #FFF !important;
+    color: #000 !important;
+    font-size: 12pt !important;
+  }
+
+  .top-bar,
+  .ticker-bar,
+  .main-header,
+  .site-footer,
+  .whatsapp-floating-btn,
+  .back-to-top-btn,
+  .step-nav-buttons,
+  .modal-close-btn,
+  .modal-footer {
+    display: none !important;
+  }
+
+  .modal-overlay {
+    position: static !important;
+    background: none !important;
+    padding: 0 !important;
+  }
+
+  .modal-box {
+    box-shadow: none !important;
+    border: none !important;
+    max-width: 100% !important;
+  }
+
+  .official-letterhead,
+  .admission-slip-printable {
+    border: 1px solid #000 !important;
+    padding: 20px !important;
+    page-break-inside: avoid;
+  }
+
+  a[href]:after {
+    content: "" !important;
+  }
+}
